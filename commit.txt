@@ -1,0 +1,8 @@
+Replace old site code with new ones
+
+    New ones uses PHP code ran before the code is pushed. This should 
+eliminate repetitive writing done when writing HTML files manually.
+
+    New ones also have different looks than the old ones.
+    
+    Majority of the code is a mess and expected to improve over time.

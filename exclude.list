@@ -1,6 +1,11 @@
 blog
+commit
 projects
 store
 pages
 res/github/__MACOSX
 res/parts
+source/projects
+source/blog
+source/pages
+source/store
