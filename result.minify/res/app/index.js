@@ -1,0 +1,1 @@
+const app={};window.addEventListener("load",function(){for(const[t,e]of Object.entries(app))e();for(const e of document.querySelectorAll("head style.noscript"))e.remove()})
