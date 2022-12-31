@@ -1,1 +1,1 @@
-Fix issue with old website code mistaken as a submodule
+Fix issue with missing symlink target affecting github pages

@@ -1,0 +1,28 @@
+git push using:  origin gh-pages
+1/7 (0) [0]2/7 (1) [0]3/7 (2) [0]4/7 (3) [0]5/7 (4) [0]6/7 (5) [0]7/7 (6) [0]ERR<26555>:ecore ../src/lib/ecore/ecore_main.c:1387 _ecore_main_fd_handler_add() Failed to add poll on fd 53 (errno = 17: File exists)!
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/usr/lib/libeina.so.1 0x7fb0f4304324 0x7fb0f42d9000
+/usr/lib/libeina.so.1 0x7fb0f42fb861 0x7fb0f42d9000
+/usr/lib/libeina.so.1 0x7fb0f4308329 0x7fb0f42d9000
+/usr/lib/libecore.so.1 0x7fb0f438c2ea 0x7fb0f4371000
+/usr/lib/libecore.so.1 0x7fb0f438d233 0x7fb0f4371000
+/usr/lib/libecore_audio.so.1 0x7fb0f2fe4d25 0x7fb0f2fd9000
+/usr/lib/pulseaudio/libpulsecommon-16.1.so 0x7fb0ea91943c 0x7fb0ea8f1000
+/usr/lib/pulseaudio/libpulsecommon-16.1.so 0x7fb0ea921558 0x7fb0ea8f1000
+/usr/lib/pulseaudio/libpulsecommon-16.1.so 0x7fb0ea941150 0x7fb0ea8f1000
+/usr/lib/libecore_audio.so.1 0x7fb0f2fe4bf4 0x7fb0f2fd9000
+/usr/lib/libecore.so.1 0x7fb0f438f715 0x7fb0f4371000
+/usr/lib/libecore.so.1 0x7fb0f438ff9d 0x7fb0f4371000
+/usr/lib/libecore.so.1 0x7fb0f4399de9 0x7fb0f4371000
+/usr/lib/libecore.so.1 0x7fb0f4393807 0x7fb0f4371000
+/usr/lib/libecore.so.1 0x7fb0f438be28 0x7fb0f4371000
+/usr/bin/enlightenment_askpass 0x55e1615238f0 0x55e161521000
+/usr/bin/enlightenment_askpass 0x55e161523055 0x55e161521000
+/usr/lib/libc.so.6 0x7fb0f3e3c290 0x7fb0f3e19000
+/usr/lib/libc.so.6 0x7fb0f3e3c34a 0x7fb0f3e19000
+/usr/bin/enlightenment_askpass 0x55e161523095 0x55e161521000
+EOF
+
+error: unable to read askpass response from '/usr/bin/enlightenment_askpass'
