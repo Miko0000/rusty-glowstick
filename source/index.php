@@ -20,6 +20,18 @@
         <div class="title">Miko0000</div>
         <div class="text">Fullstack Web Developer</div>
       </div>
+      <div class="nav">
+        <div>
+          <a href="https://github.com/miko0000/miko0000.github.io" class="logo right">
+            <div>
+              <img src="res/github/github-mark/github-mark-white.svg"></img>
+            </div>
+          </a>
+        </div>
+        <div>
+        
+        </div>
+      </div>
       <div class="credit">
         <a rel="noopener noreferer" target="_blank" href="https://www.pexels.com/photo/bird-s-eye-view-photography-of-lighted-city-3573383">
           Photo by Josh Hild from Pexels

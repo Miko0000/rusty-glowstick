@@ -21,6 +21,12 @@ body {
   height: 100vh;
 }
 
+@media (orientation: landscape) {
+  .portrait {
+    display: none !important;
+  }
+}
+
 #body-wrp a {
   color: rgb(125, 230, 125);
 }
@@ -42,6 +48,21 @@ body {
 
 #body-wrp .app {
   /*border: thin solid red;*/
+}
+
+#body-wrp .logo > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#body-wrp .logo > * > * {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 #body-wrp > .banner {
@@ -93,6 +114,35 @@ body {
 }
 
 #body-wrp > .banner > .description > .text {
+  
+}
+
+#body-wrp > .banner > .nav {
+  position: absolute;
+  
+  right: 0.5%;
+  top: 0.5%;
+  
+  height: 5%;
+  width: 40%;
+  height: 35%;
+  
+  line-height: 0px;
+}
+
+#body-wrp > .banner > .nav > div {
+  position: relative;
+  display: inline-block;
+  
+  margin-top: 0.5%;
+  
+  height: 49%;
+  width: 100%;
+  
+  text-align: right;
+}
+
+#body-wrp > .banner > .nav > div > * {
   
 }
 
@@ -228,8 +278,7 @@ body {
   width: 10%;
 }
 
-#body-wrp > .top .banner > *,
-#body-wrp > .top .logo > * {
+#body-wrp > .top .banner > * {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -242,8 +291,7 @@ body {
   float: right;
 }
 
-#body-wrp > .top .banner > * > *,
-#body-wrp > .top .logo > * > * {
+#body-wrp > .top .banner > * > * {
   position: relative;
   display: inline-block;
   height: 100%;

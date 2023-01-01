@@ -1,1 +1,7 @@
-Fix issue with missing symlink target affecting github pages
+Fix broken <link> media query rules. More below
+
+Change README.md to include little bit information regarding some root
+    level scripts
+Change the look of pages to include a link to repository in portrait
+    orientation
+Add few scripts to run server, both php and static server
